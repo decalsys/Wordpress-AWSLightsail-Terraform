@@ -1,11 +1,11 @@
 variable "region" {
   type    = string
-  default = "us-east-1"
+  default = "ap-southeast-1"
 }
 
 variable "instance_availability_zone" {
   type    = string
-  default = "us-east-1b"
+  default = "ap-southeast-1a"
 }
 
 variable "instance" {
@@ -23,7 +23,7 @@ variable "instance_bundleid" {
   default = "small_2_0"
 }
 
-variable "intance_key_pair" {
+variable "instance_key_pair" {
   type    = string
   default = "Wordpress-KP"
 }
